@@ -13,9 +13,10 @@ Widget build(BuildContext context) {
 						),
 					body
 				: Container(child
-							: Text("Hello! i am inside a container!",
+							: Text("Hello",
 									style
-									: TextStyle(fontSize : 20)),
+									: TextStyle(fontSize : 30,
+                ),
 							), ), );
 }
 }
